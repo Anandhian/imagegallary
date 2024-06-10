@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.gally{
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 120px;
+    
+    gap: 20px;
+    justify-content: center;
+    align-items: center;  
+    
+
+}
+ img{
+    width: 220px;
+    border-radius: 10%;
+
+}
+img:hover{
+    opacity: .5;
+    transition: .9s;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+p:hover{
+    background-color: aqua;
+    color: black;
+}
